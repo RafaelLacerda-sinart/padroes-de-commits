@@ -46,18 +46,3 @@ fi
 exit 0
 ```
 
-## Como usar
-
-1. Salve o script como:
-
-```bash
-.git/hooks/commit-msg
-```
-
-2. Dê permissão de execução:
-
-```bash
-chmod +x .git/hooks/commit-msg
-```
-
-Agora seus commits serão validados automaticamente conforme o padrão **Conventional Commits**.
