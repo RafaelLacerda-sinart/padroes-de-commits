@@ -18,9 +18,6 @@ var div = (e,f)=>{
 console.log(div(20,2))
 
 
-
-
-
 "objeto"
 var func = function(){
     console.log(this.nome)

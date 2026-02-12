@@ -64,17 +64,16 @@ frutas.forEach(function(fruta, indice) {
 });
 
 
-// ===============================
+
+
 // 1️⃣ LOOP FOR
-// ===============================
 // Estrutura clássica de loop, usada quando sabemos quantas vezes queremos repetir.
 for (let i = 0; i < 5; i++) {
     console.log("for:", i); // imprime 0,1,2,3,4
 }
 
-// ===============================
+
 // 2️⃣ LOOP WHILE
-// ===============================
 // Repetição enquanto a condição for verdadeira. Verifica antes de executar.
 let j = 0;
 while (j < 5) {
@@ -82,9 +81,7 @@ while (j < 5) {
     j++;
 }
 
-// ===============================
 // 3️⃣ LOOP DO...WHILE
-// ===============================
 // Executa o bloco pelo menos uma vez, depois verifica a condição.
 let k = 0;
 do {
@@ -92,27 +89,24 @@ do {
     k++;
 } while (k < 5);
 
-// ===============================
+
 // 4️⃣ LOOP FOR...OF
-// ===============================
 // Percorre **valores** de arrays ou strings.
 const fruits = ["maçã", "banana", "laranja"];
 for (const fruit of fruits) {
     console.log("for...of:", fruit);
 }
 
-// ===============================
+
 // 5️⃣ LOOP FOR...IN
-// ===============================
 // Percorre **chaves (propriedades)** de objetos ou índices de arrays.
 const person = { nome: "Alice", idade: 25, cidade: "SP" };
 for (const key in person) {
     console.log("for...in:", key, "=", person[key]);
 }
 
-// ===============================
+
 // 6️⃣ LOOP COM BREAK E CONTINUE
-// ===============================
 // Podemos controlar o fluxo do loop.
 for (let n = 0; n < 10; n++) {
     if (n === 3) continue; // pula o número 3
